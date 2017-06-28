@@ -2,44 +2,40 @@
 <html>
 <head>
         <title>Broadway Design</title>
-        <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
 <!--header--------------------------------------------->
-
-  <h1>Broadway Design</h1>
-  <nav>
-      <ul>
-        <a href="#"><li>Home</li></a>
-        <a href="#"><li>Process</li></a>
-        <a href="#"><li>Work</li></a>
-        <a href="#"><li>Team</li></a>
-        <a href="#"><li>Contact</li></a>
-      </ul>
-  </nav>
-
+  <div id="broadwayHeader">
+    <h1>Broadway Design</h1>
+    <nav>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Process</li></a>
+          <a href="#"><li>Work</li></a>
+          <a href="#"><li>Team</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+    </nav>
+  </div>
 <!--feature content--------------------------->
 
   <h2>Our Process</h2>
 
-  <div class id="process">
-    <img src="#">
-    <h4>Identify</h4>
-    <p>We focus on the most important details.</p>
-  </div> <!--closing identify div-->
+    <img class="sketchyIcons" src="./images/identify.svg">
+    <h4 class="subhead">Identify</h4>
+    <p class="described">We focus on the most important details.</p>
 
-  <div class id="process">
-    <img src="#">
-    <h4>Understand</h4>
-    <p>We study our projects inside and out.</p>
-  </div> <!--closing understand div-->
 
-  <div class id="process">
-    <img src="#">
-    <h4>Execute</h4>
-    <p>We put everything we have into our work.</p>
-  </div> <!--closing execute div-->
+    <img class="sketchyIcons" src="./images/understand.svg">
+    <h4 class="subhead">Understand</h4>
+    <p class="described">We study our projects inside and out.</p>
+
+
+    <img class="sketchyIcons"src="./images/execute.svg">
+    <h4 class="subhead">Execute</h4>
+    <p class="described">We put everything we have into our work.</p>
 
 <!--contact----------------------------------------->
 
@@ -57,17 +53,19 @@
 
 <!--footer------------------------------------------>
 
-<p>&copy; Broadway 2016</p>
+  <div id="footer">
+  <p id="broadwayCopyright">&copy; Broadway 2016</p>
 
-<nav>
-    <ul>
-      <a href="#"><li>Home</li></a>
-      <a href="#"><li>About</li></a>
-      <a href="#"><li>Work</li></a>
-      <a href="#"><li>Team</li></a>
-      <a href="#"><li>Contact</li></a>
-    </ul>
-</nav>
+  <nav id="footerNav">
+      <ul>
+        <a class="footLi" href="#"><li>Home</li></a>
+        <a class="footLi" href="#"><li>About</li></a>
+        <a class="footLi" href="#"><li>Work</li></a>
+        <a class="footLi" href="#"><li>Team</li></a>
+        <a class="footLi" href="#"><li>Contact</li></a>
+      </ul>
+  </nav>
+  </div><!--closing footer div------------------------->
 
 </body>
 </html>
